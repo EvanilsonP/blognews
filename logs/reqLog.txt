@@ -13,3 +13,29 @@
 20230130	13:28:46	f6d6a61e-bf87-4262-aeb7-38465aeb9979	/css/style.css	GET
 20230130	13:28:46	6e5a97e5-0104-4dd7-bd2e-9945367b2fa4	/old	GET
 20230130	13:28:46	ee5d52bb-415e-4f7b-9651-362a51a2e2d9	/css/style.css	GET
+20230201	09:37:54	ec8b1a36-6d5e-44e6-815c-ebf60fcf9f35	GET	undefined	/css/style.css
+20230201	09:37:54	e9b77445-7ed0-4c34-9a25-0bf049a3d793	GET	undefined	/favicon.ico
+20230201	09:43:36	7f21c371-7cac-45b0-b20f-068766b58b14	GET	undefined	/
+20230201	09:43:36	34c21b62-133c-45d8-a288-54484b88d25e	GET	undefined	/css/style.css
+20230201	09:43:36	4f076d97-bfa5-4e55-9dc3-66cc3be1b6b3	GET	undefined	/favicon.ico
+20230201	09:43:51	f1c3d39c-4fae-4fe1-bc16-6f9b2a52f93f	GET	undefined	/
+20230201	09:43:51	797d2619-2d6f-43c6-a936-bb0402be911b	GET	undefined	/css/style.css
+20230201	09:43:51	9aaf009a-6f34-4ae2-960b-c4b0d85bb25f	GET	undefined	/favicon.ico
+20230201	09:43:51	5848c795-29c7-492c-b32b-83d2e39b350d	GET	undefined	/
+20230201	09:43:51	08173605-c0da-4276-9b2b-2bc15da3f52a	GET	undefined	/css/style.css
+20230201	09:43:51	8cfbcc11-f46b-4571-a6dd-f1a1e8eeefbd	GET	undefined	/favicon.ico
+20230201	09:43:51	5f94f26a-3b73-4ef9-8399-264abf01a7e1	GET	undefined	/
+20230201	09:43:51	4fd51f04-ee0f-4aef-9e74-0625e8744c1c	GET	undefined	/css/style.css
+20230201	09:43:51	adf26036-41b5-4c0a-b243-256d9b87cd5f	GET	undefined	/favicon.ico
+20230201	09:50:17	119fd60c-0da6-4e2c-ab80-c01c8e89a020	OPTIONS	https://www.google.com	/
+20230201	09:50:17	915ff5f3-b505-4433-b6e2-73edceb4bcfc	GET	https://www.google.com	/
+20230201	10:11:07	e2f48ae6-692b-43ca-a8ce-c2728235f52e	GET	undefined	/
+20230201	10:11:07	236d33d2-7ca8-4cf4-a709-0d3cc803b703	GET	undefined	/favicon.ico
+20230201	10:12:08	8da84ef6-6c8d-41f0-96e8-914ef0013351	GET	undefined	/
+20230201	10:12:08	467fccf8-559f-42cd-b737-cd99671ce655	GET	undefined	/favicon.ico
+20230201	10:19:15	ca126b3e-745b-4934-9665-3e13e4e708fe	GET	undefined	/
+20230201	10:19:15	fff6ed10-d0e7-4183-b6e7-e2b192d28375	GET	undefined	/favicon.ico
+20230201	10:19:15	518548fa-4f4a-47ae-859c-1ad89bbcadad	GET	undefined	/
+20230201	10:19:15	05e6b18c-92b4-405b-b828-4b92b6d46bcc	GET	undefined	/favicon.ico
+20230201	10:20:55	f06c6516-1f68-45b3-9843-be3d490b96e3	GET	undefined	/
+20230201	10:20:55	7007db2d-806f-4837-8c58-e640bab1070a	GET	undefined	/favicon.ico
