@@ -8,6 +8,7 @@
 
       <% if (news.length > 0) { %>
         <% news.forEach(blogNews => { %>
+          <a class="single" href="/news/<%= blogNews._id %>">
           <h3 class="title"><%= blogNews.title %></h3>
           <p class="snippet"><%= blogNews.snippet %></p>
         <% }) %>

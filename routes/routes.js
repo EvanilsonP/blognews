@@ -1,28 +1,19 @@
 const express = require('express');
-const routes = express.Router();
+const router = express.Router();
+const controller = require('../controllers/newsController');
 
-routes.get('/', (req, res) => {
+router.get('/news/create', controller.newsGet);
+router.get('/news', controller.news);
+router.post('/news', controller.createNews);
+router.get('/news/:id', controller.newsDetails);
+router.delete('/news/:id', controller.deleteNews);
+
+router.get('/', (req, res) => {
     res.redirect('/news');
 });
 
-routes.get('/news', (req, res) => {
-    const news = [
-        { title: 'The importance of reading', snippet: 'As we know...'}
-    ]
-    res.render('index', { news, title: 'News'});
-});
-
-routes.get('/about', (req, res) => {
+router.get('/about', (req, res) => {
     res.render('about', { title: 'About' });
 });
 
-routes.get('/news/create', (req, res) => {
-    res.render('create', { title: 'Create' });
-});
-
-routes.use((req, res) => {
-    res.render('404', { title : '404'})
-});
-
-
-module.exports = routes;
+module.exports = router;
