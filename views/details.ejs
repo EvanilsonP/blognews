@@ -5,8 +5,25 @@
   <%- include("./partials/nav.ejs") %>
 
   <div class="details content">
-    <h2><%= blogNews.title %></h2>
+    <h2><%= news.title %></h2>
     <div class="content">
-      <p><%= blogNews.body %></p>
+      <p><%= news.body %></p>
     </div>
+    <a class="delete" data-doc="<%= news._id %>">delete</a>
   </div>
+
+  <script>
+    const trashcan = document.querySelector('a.delete');
+    trashcan.addEventListener('click', (e) => {
+        const endpoint = `/news/${trashcan.dataset.doc}`;
+        fetch(endpoint, {
+            method: 'DELETE'
+        })
+        .then((response) => response.json())
+        .then((data) => window.location.href = data.redirect)
+        .catch((err) => console.log(err))
+    });
+  </script>
+  
+</body>
+</html>
