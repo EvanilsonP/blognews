@@ -7,16 +7,16 @@ routes.get('/', (req, res) => {
 
 routes.get('/news', (req, res) => {
     const news = [
-        {title: 'The importance of reading', snippet: 'As we know...'}
+        { title: 'The importance of reading', snippet: 'As we know...'}
     ]
-    res.render('index', { title: 'News'})
+    res.render('index', { news, title: 'News'});
 });
 
 routes.get('/about', (req, res) => {
     res.render('about', { title: 'About' });
 });
 
-routes.get('/blogs/create', (req, res) => {
+routes.get('/news/create', (req, res) => {
     res.render('create', { title: 'Create' });
 });
 

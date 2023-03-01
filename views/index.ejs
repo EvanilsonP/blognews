@@ -1,27 +1,21 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog News | <%= title %></title>
-</head>
+  <%- include("./partials/head.ejs") %>
 <body>
-    <nav>
-        <div class="site-title">
-          <a href="/"><h1>Blog News</h1></a>
-          <p>A News website</p>
-        </div>
-        <ul>
-          <li><a href="/">Blogs</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/blogs/create">New Blog</a></li>
-        </ul>
-      </nav>
+  <%- include("./partials/nav.ejs") %>
 
-  <h1>Home</h1>
-  <h2>Your path to becoming a Node.js ninja!</h2>
-  <nav>
-    <a href="/">Homepage</a>
-    <a href="/about">About page</a>
-  </nav>
+<div class="news content">
+   <h2>All news</h2>
+
+      <% if (news.length > 0) { %>
+        <% news.forEach(blogNews => { %>
+          <h3 class="title"><%= blogNews.title %></h3>
+          <p class="snippet"><%= blogNews.snippet %></p>
+        <% }) %>
+      <% } else { %>
+        <p>There are no blogs to display...</p>
+       <% } %>
+
+      </div>
+    <%- include("./partials/footer.ejs") %>
 </body>
 </html>
