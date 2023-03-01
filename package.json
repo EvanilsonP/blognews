@@ -1,19 +1,15 @@
 {
   "name": "05tut",
   "version": "1.0.0",
-  "description": "Node.js Web Server tutorial",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "npx nodemon app.js"
   },
-  "author": "Dave Gray",
+  "author": "Evanilson P.",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "date-fns": "^2.23.0",
-    "express": "^4.18.2",
-    "uuid": "^8.3.2"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"

@@ -1,6 +1,0 @@
-20230201	10:19:15	a283ccfb-5d4f-49c8-86a5-cc73f1a2127a	Error Not allowed by CORS.
-20230201	10:19:15	8b390ac3-135c-4ad3-8d11-4f6261753e5b	Error Not allowed by CORS.
-20230201	10:19:15	fd46e6ae-b46a-4be7-95ed-31b7e278b700	Error Not allowed by CORS.
-20230201	10:19:15	78a6e50c-c4e8-4d50-b0b7-dea1f2036706	Error Not allowed by CORS.
-20230201	10:20:55	d0c355f8-6a0b-4228-958d-fe9ecffff2c7	Error Not allowed by CORS.
-20230201	10:20:55	cd5528a5-abd5-4b7e-8b9a-9ed6405f106c	Error Not allowed by CORS.
