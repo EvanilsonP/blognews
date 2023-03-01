@@ -86,3 +86,11 @@
       font-size: 1.2em;
       cursor: pointer;
     }
+
+    a:hover {
+      background-color: black;
+      color: white;
+      transition: 0.6s;
+      padding: 6px;
+      border-radius: 20px;
+    }
